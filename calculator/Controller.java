@@ -16,8 +16,6 @@ public class Controller {
     private boolean start = true;
     private int clearCount = 0;
 
-    private Model model = new Model();
-
     @FXML
     private void processNumpad(ActionEvent event) {
         clearCount = 0;
